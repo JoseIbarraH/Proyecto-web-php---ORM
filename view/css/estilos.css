@@ -1,0 +1,94 @@
+.Reporte * {
+    table {
+        background-color: #ffffff;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
+    th, td {
+        border: 1px solid #000000;
+        padding: 10px;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    td {
+        text-align: left;
+    }
+
+}
+
+.Menu{
+    table{
+        background-color: #ffffff;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    th, td {
+        border: 1px solid #000000;
+        padding: 10px;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    th {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    td {
+        font-size: 14px;
+    }
+}
+
+.Sesion {
+
+    form {
+        background-color: #ffffff;
+        width:  500px;
+        margin:  0 auto;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    label {
+        font-size:  16px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;;
+    }
+
+    button {
+        width:  100%;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .error {
+        color: #ff0000;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+}
